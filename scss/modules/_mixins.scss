@@ -1,0 +1,78 @@
+//
+//	BORDER BOX
+//
+@mixin border-box {
+	box-sizing:border-box;
+	-webkit-box-sizing:border-box;
+	-moz-box-sizing:border-box;
+}
+
+//
+//	FONT FAMILIES
+//
+@mixin font-family-open-sans-light {
+	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
+	font-weight: 300;
+}
+
+//
+//	FONT SIZES
+//
+$h1: 2.75rem;
+$h2: 1.75rem;
+$h3: 1.575rem;
+$h4: 1.375rem;
+$h5: 1.25rem;
+$h6: 1.125rem;
+$p: 1.125rem;
+$small: 1rem;
+
+$padding-small: 1.45rem;
+$padding-large: 2.8rem;
+$padding-huge: 6.25rem;
+
+//
+//	MISC. FONT STUFF
+//
+@mixin text-shadow {
+	text-shadow: 1px 1px 5px $black-50;
+	filter: dropshadow(color=#000000, offx=1, offy=1);
+}
+
+@mixin font-smoothing {
+	-webkit-font-smoothing:antialiased;
+	-moz-font-smoothing:antialiased;
+	-moz-osx-font-smoothing: grayscale;
+	-o-font-smoothing:antialiased;
+	font-smoothing:antialiased;
+	text-rendering:optimizeLegibility;
+}
+
+@mixin link {
+	color: blue;
+	@include transition(all,250ms);
+}
+@mixin link-hover {
+	color: purple;
+}
+
+//
+//	BACKGROUNDS
+//
+@mixin background-cover {
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+
+//
+//	TRANSITIONS
+//
+@mixin transition($type,$length) {
+	-webkit-transition: $type $length ease-in-out;
+	-moz-transition: $type $length ease-in-out;
+	-ms-transition: $type $length ease-in-out;
+	-o-transition: $type $length ease-in-out;
+	transition: $type $length ease-in-out;
+}
