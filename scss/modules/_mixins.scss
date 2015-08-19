@@ -10,9 +10,13 @@
 //
 //	FONT FAMILIES
 //
-@mixin font-family-open-sans-light {
-	font-family: 'Open Sans', Helvetica, Arial, sans-serif;
-	font-weight: 300;
+@mixin font-family-proxima-nova-regular {
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+	font-weight: 400;
+}
+@mixin font-family-proxima-nova-bold {
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+	font-weight: 700;
 }
 
 //
@@ -49,11 +53,14 @@ $padding-huge: 6.25rem;
 }
 
 @mixin link {
-	color: blue;
+	color: $blue;
+	text-decoration: none;
+	border-bottom: 1px solid transparent;
 	@include transition(all,250ms);
 }
 @mixin link-hover {
-	color: purple;
+	color: $black;
+	border-bottom: 1px solid $black-15;;
 }
 
 //

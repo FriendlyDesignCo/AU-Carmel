@@ -1,0 +1,48 @@
+/*
+==========================================================================
+  AU BAR (scss/partials/global/_au-bar.scss)
+==========================================================================
+*/
+.au-bar {
+  padding: 10px 20px;
+  position: relative;
+
+  background: $dark-gray;
+  color: $white;
+
+  &__logo {
+    display: block;
+    height: 21px;
+    width: 192px;
+
+    img {
+      height: 100%;
+      width: auto;
+    }
+  }
+
+  &__search {
+    padding: 2px 5px;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+
+    -moz-transform: translateY(-52%);
+    -webkit-transform: translateY(-52%);
+    -o-transform: translateY(-52%);
+    -ms-transform: translateY(-52%);
+    transform: translateY(-52%);
+
+    background: $white;
+
+    input {
+      border: 0;
+      background: $white;
+      color: $black;
+    }
+
+    .glyphicon {
+      color: $black-25;
+    }
+  }
+}
