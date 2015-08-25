@@ -1,0 +1,22 @@
+/*
+==========================================================================
+  PAGE TITLE HEADER (scss/partials/global/_page-title-header.scss)
+==========================================================================
+*/
+.page-title {
+  padding: 40px 0;
+
+  background-color: $blue;
+  background-image: url(../img/bg-page-title-header-1207x400.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+  h1 {
+    margin: 0;
+    text-align: center;
+    color: $white;
+    @include font-family-playfair-regular;
+    font-style: italic;
+  }
+}

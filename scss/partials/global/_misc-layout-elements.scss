@@ -1,0 +1,52 @@
+/*
+==========================================================================
+  MISC. LAYOUT ELEMENTS (scss/partials/global/_misc-layout-elements.scss)
+==========================================================================
+*/
+.flourish {
+  width: 79px;
+  height: 30px;
+
+  background-color: $white;
+  background-image: url(../img/bg-center-flourish-118x60.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: auto 30px;
+}
+
+div.hr {
+  height: 30px;
+  position: relative;
+
+  &:before {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 23px;
+    float: left;
+
+    background: url(../img/bg-hr-flourish-left-2266x46.png) no-repeat;
+    background-position: left center;
+    background-size: auto 23px;
+  }
+  &:after {
+    content: "";
+    display: block;
+    width: 50%;
+    height: 23px;
+    float: right;
+
+    background: url(../img/bg-hr-flourish-right-2266x46.png) no-repeat;
+    background-position: right center;
+    background-size: auto 23px;
+  }
+  .flourish {
+    position: absolute;
+    left: 50%;
+    -moz-transform: translateX(-50%) translateY(-20%);
+    -webkit-transform: translateX(-50%) translateY(-20%);
+    -o-transform: translateX(-50%) translateY(-20%);
+    -ms-transform: translateX(-50%) translateY(-20%);
+    transform: translateX(-50%) translateY(-20%);
+  }
+}

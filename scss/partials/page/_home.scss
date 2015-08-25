@@ -1,0 +1,93 @@
+/*
+==========================================================================
+  HOMEPAGE STYLES (scss/partials/page/_home.scss)
+==========================================================================
+*/
+body.home {
+  
+  .jumbotron {
+    background: $black-80;
+
+
+    .container {
+      @include flexbox;
+      @include media-query(small) {
+        @include flex-wrap(wrap);
+      }
+    }
+
+    h1 {
+      color: $white;
+      @include font-family-playfair-regular;
+      font-style: italic;
+
+      @include media-query(small) {
+        @include flex(1, 1, 100%);
+        font-size: $h3;
+        text-align: center;
+      }
+      @include media-query(medium-up) {
+        @include flex(1, 1, 50%);
+        max-width: 50%;
+        padding-right: 60px;
+        font-size: $h1;
+        text-align: right;
+      }
+    }
+    p {
+      @include font-family-proxima-nova-regular;
+
+      color: $white;
+      font-size: $p;
+
+      @include media-query(small) {
+        @include flex(1, 1, 100%);
+        text-align: center;
+      }
+      @include media-query(medium-up) {
+        @include flex(1, 1, 50%);
+        max-width: 50%;
+        padding-top: 35px;
+        padding-left: 60px;
+      }
+    }
+
+    .btn {
+      margin-top: 2em;
+      display: inline-block;
+    }
+  }
+
+  .hr {
+    margin-top: 4em;
+
+    @include media-query(small) {
+      display: none;
+    }
+  }
+
+  .callout-list {
+
+    .callout-list__column {
+      @include media-query(medium-up) {
+        margin-top: -5em;
+      }
+    }
+    .callout-list__title {
+      @include media-query(medium-up) {
+        margin-bottom: 5em;
+      }
+    }
+
+    &__text {
+      background: $black-05;
+      padding: 60px 0;
+      margin-bottom: 0;
+
+      .flourish {
+        background-color: #F3F3F3;
+      }
+    }
+
+  }
+}

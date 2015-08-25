@@ -104,6 +104,27 @@ $blue: #3a4699;
 	$blue-10: rgba($blue,0.1);
 	$blue-05: rgba($blue,0.05);
 
+$light-blue: #476DA8;
+	$light-blue-95: rgba($light-blue,0.95);
+	$light-blue-90: rgba($light-blue,0.9);
+	$light-blue-85: rgba($light-blue,0.85);
+	$light-blue-80: rgba($light-blue,0.8);
+	$light-blue-75: rgba($light-blue,0.75);
+	$light-blue-70: rgba($light-blue,0.7);
+	$light-blue-65: rgba($light-blue,0.65);
+	$light-blue-60: rgba($light-blue,0.6);
+	$light-blue-55: rgba($light-blue,0.55);
+	$light-blue-50: rgba($light-blue,0.5);
+	$light-blue-45: rgba($light-blue,0.45);
+	$light-blue-40: rgba($light-blue,0.4);
+	$light-blue-35: rgba($light-blue,0.35);
+	$light-blue-30: rgba($light-blue,0.3);
+	$light-blue-25: rgba($light-blue,0.25);
+	$light-blue-20: rgba($light-blue,0.2);
+	$light-blue-15: rgba($light-blue,0.15);
+	$light-blue-10: rgba($light-blue,0.1);
+	$light-blue-05: rgba($light-blue,0.05);
+
 @mixin color($attr,$color,$opacity) {
 	#{$attr}: rgba($color,$opacity);
 }

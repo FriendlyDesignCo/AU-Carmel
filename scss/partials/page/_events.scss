@@ -1,0 +1,37 @@
+/*
+==========================================================================
+  EVENTS (scss/partials/page/_events.scss)
+==========================================================================
+*/
+
+.events-top {
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+.featured-event {
+  h3 {
+    margin-top: 0;
+    
+    @include font-family-playfair-bold;
+    font-style: italic;
+  }
+  
+  &__date {
+    @include date;
+  }
+
+  &__image {
+    max-width: 100%;
+    height: auto;
+  }
+
+  &__description {
+    margin-top: 1em;
+    padding-left: 0;
+    @include media-query(small) {
+      padding: 0;
+    }
+  }
+
+}

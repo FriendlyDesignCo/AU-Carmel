@@ -1,11 +1,3 @@
-jQuery(document).ready(function($) {
-   carmel.utility.init();
-
-   // $(window).resize(function(){ carmel.utility.resize(); });
-   // $(window).scroll(function(){ carmel.utility.onScroll(); });
-});
-
-
 /*
 =============================================================================
   FUNCTION DECLARATIONS
@@ -28,6 +20,9 @@ var carmel = (function($) {
       // On init function calls
 
       // User input calls
+      $('.site-header__nav .handle, .site-header__nav .fill').click(function() {
+        carmel.expandNavigation();
+      });
 
     };
 
@@ -39,24 +34,41 @@ var carmel = (function($) {
       // Functions
     };
 
-    var onInterval = setInterval(function(){ // items to run on an interval.
+    // var onInterval = setInterval(function(){ // items to run on an interval.
 
-    }, 300);
+    // }, 300);
 
     return  {
       init: init,
       onScroll: onScroll,
       resize: resize
-    }
+    };
   })();
 
-  var example = function() {
-
+  var expandNavigation = function() {
+    $('.site-header__logo').toggleClass('site-header__logo--nav-open');
+    $('.site-header__nav').toggleClass('site-header__nav--open');
+    $('.site-header__nav .handle').toggleClass('open');
+    if (!$('.site-header__nav .fill').hasClass('visible')) {
+      setTimeout(function() {
+        $('.site-header__nav .fill').toggleClass('visible');
+      }, 250);
+    }
+    else {
+      $('.site-header__nav .fill').toggleClass('visible');
+    }
   };
 
   // public
   return {
     utility: utility,
-    example: example
+    expandNavigation: expandNavigation
   };
 })(jQuery); // var carmel = (function() {
+
+$(document).ready(function() {
+   carmel.utility.init();
+
+   // $(window).resize(function(){ carmel.utility.resize(); });
+   // $(window).scroll(function(){ carmel.utility.onScroll(); });
+});

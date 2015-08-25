@@ -1,0 +1,25 @@
+/*
+==========================================================================
+  BUTTONS (scss/partials/global/_buttons.scss)
+==========================================================================
+*/
+.btn-primary {
+  padding: 12px 24px;
+  background-color: $blue;
+  background-image: url(../img/bg-button-600x327.png);
+  background-size: 120% auto;
+  background-position: center 54%;
+  border-radius: 0;
+  -webkit-border-radius: 0;
+  border: 0;
+  color: $white !important;
+  text-transform: uppercase;
+  @include font-family-proxima-nova-bold;
+  letter-spacing: 0.05em;
+
+  &:hover {
+    background-color: $light-blue;
+    border: 0;
+    color: $white;
+  }
+}

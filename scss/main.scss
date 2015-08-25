@@ -6,6 +6,15 @@
 
 // Partials 
 @import "partials/typography"; // Universal font styles
+@import "partials/global/buttons";
 @import "partials/global/au-bar";
+@import "partials/global/site-header";
+@import "partials/global/page-title-header";
+@import "partials/global/callout-list";
+@import "partials/global/misc-layout-elements";
+@import "partials/global/site-footer";
+
+@import "partials/page/home";
+@import "partials/page/events";
 
 // Vendor

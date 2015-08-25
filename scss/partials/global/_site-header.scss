@@ -1,0 +1,388 @@
+/*
+==========================================================================
+  SITE HEADER (scss/partials/global/_site-header.scss)
+==========================================================================
+*/
+.site-header {
+  margin-top: 0;
+  margin-bottom: 0;
+  border-bottom: 0;
+  
+  @include media-query(small) {
+    min-height: 41px;
+  }
+  @include media-query(medium) {
+    width: calc(100% - 40px);
+    min-height: 100px;
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  @include media-query(large) {
+    min-height: 152px;
+  }
+
+  // background: $black-10;
+
+  position: relative;
+
+
+  &__logo {
+    display: block;
+
+    @mixin logo-center {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      -moz-transform: translateX(-50%) translateY(-50%);
+      -webkit-transform: translateX(-50%) translateY(-50%);
+      -o-transform: translateX(-50%) translateY(-50%);
+      -ms-transform: translateX(-50%) translateY(-50%);
+      transform: translateX(-50%) translateY(-50%);
+    }
+
+    @include media-query(small) {
+      margin-top: 10px;
+      width: 188px;
+      position: relative;
+      top: 0;
+
+      @include transition(top, 250ms);
+
+      &--nav-open {
+        top: -45px;
+      }
+    }
+
+    @include media-query(medium) {
+      width: 100px;
+      height: 133px;
+
+      @include logo-center;
+
+      -webkit-border-radius: 75px / 100px;
+      border-radius: 75px / 100px;
+      border: 3px solid rgba($black,0.02);
+      background: $white;
+    }
+    @include media-query(large) {
+      width: 150px;
+      height: 200px;
+      
+      @include logo-center;
+
+      -webkit-border-radius: 75px / 100px;
+      border-radius: 75px / 100px;
+      border: 3px solid rgba($black,0.02);
+      background: $white;
+    }
+
+    .border-1 {
+      @include media-query(medium) {
+        width: 90px;
+        height: 123px;
+        
+        @include logo-center;
+
+        -webkit-border-radius: 68px / 93px;
+        border-radius: 68px / 93px;
+        border: 2px solid $black-05;
+      }
+
+      @include media-query(large) {
+        width: 136px;
+        height: 186px;
+        
+        @include logo-center;
+
+        -webkit-border-radius: 68px / 93px;
+        border-radius: 68px / 93px;
+        border: 4px solid $black-05;
+      }
+    }
+
+    .border-2 {
+      @include media-query(medium) {
+        width: 84px;
+        height: 117px;
+        
+        @include logo-center;
+
+        -webkit-border-radius: 60px / 85px;
+        border-radius: 60px / 85px;
+        border: 1px solid $black-10;
+      }
+      @include media-query(large) {
+        width: 120px;
+        height: 170px;
+        
+        @include logo-center;
+
+        -webkit-border-radius: 60px / 85px;
+        border-radius: 60px / 85px;
+        border: 1px solid $black-10;
+      }
+    }
+
+    .gradient {
+      @include media-query(medium) {
+        display: block;
+        width: 175px;
+        height: 100px;
+        position: absolute;
+        
+        @include logo-center;
+
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;0+0,1+20,1+87,0+100 */
+        background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 87%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(20%,rgba(255,255,255,1)), color-stop(87%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 87%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 87%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 87%,rgba(255,255,255,0) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 87%,rgba(255,255,255,0) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+      }
+      @include media-query(large) {
+        display: block;
+        width: 231px;
+        height: 152px;
+        position: absolute;
+        
+        @include logo-center;
+
+        /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,ffffff+100&amp;0+0,1+20,1+87,0+100 */
+        background: -moz-linear-gradient(top,  rgba(255,255,255,0) 0%, rgba(255,255,255,1) 20%, rgba(255,255,255,1) 87%, rgba(255,255,255,0) 100%); /* FF3.6+ */
+        background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(255,255,255,0)), color-stop(20%,rgba(255,255,255,1)), color-stop(87%,rgba(255,255,255,1)), color-stop(100%,rgba(255,255,255,0))); /* Chrome,Safari4+ */
+        background: -webkit-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 87%,rgba(255,255,255,0) 100%); /* Chrome10+,Safari5.1+ */
+        background: -o-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 87%,rgba(255,255,255,0) 100%); /* Opera 11.10+ */
+        background: -ms-linear-gradient(top,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 87%,rgba(255,255,255,0) 100%); /* IE10+ */
+        background: linear-gradient(to bottom,  rgba(255,255,255,0) 0%,rgba(255,255,255,1) 20%,rgba(255,255,255,1) 87%,rgba(255,255,255,0) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#00ffffff',GradientType=0 ); /* IE6-9 */
+      }
+    }
+
+    a {
+      display: block;
+
+      @include media-query(medium) {
+        width: 175px;
+        height: 86px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -moz-transform: translateX(-50%) translateY(-57%);
+        -webkit-transform: translateX(-50%) translateY(-57%);
+        -o-transform: translateX(-50%) translateY(-57%);
+        -ms-transform: translateX(-50%) translateY(-57%);
+        transform: translateX(-50%) translateY(-57%);
+      }
+
+      @include media-query(large) {
+        width: 231px;
+        height: 114px;
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        -moz-transform: translateX(-50%) translateY(-57%);
+        -webkit-transform: translateX(-50%) translateY(-57%);
+        -o-transform: translateX(-50%) translateY(-57%);
+        -ms-transform: translateX(-50%) translateY(-57%);
+        transform: translateX(-50%) translateY(-57%);
+      }
+
+      &:hover {
+        border: 0;
+      }
+
+      img {
+        width: 100%; 
+        height: auto;
+      }
+    }
+  }
+
+  &__nav {
+
+    @include media-query(small) {
+      position: fixed;
+      width: calc(100% - 56px);
+      top: 0;
+      left: 100%;
+      bottom: 0;
+      z-index: 999;
+
+      background: $white-95;
+      border-left: 1px solid $black-20;
+
+      @include transition(left, 250ms);
+
+      &--open {
+        left: 56px;
+      }
+    }
+    @include media-query(medium-up) {
+      position: absolute;
+      top: 50%;
+      left: 0;
+      right: 0;
+      -moz-transform: translateY(-50%);
+      -webkit-transform: translateY(-50%);
+      -o-transform: translateY(-50%);
+      -ms-transform: translateY(-50%);
+      transform: translateY(-50%);
+    }
+
+    ul {
+      width: 100%;
+      position: relative;
+
+      @include font-family-playfair-regular;
+      font-style: italic;
+
+      @include media-query(small) {
+        margin: 0;
+      }
+
+      div {
+        @include flexbox;
+        @include flex-wrap(wrap);
+
+        @include media-query(medium) {
+          font-size: $small;
+          min-height: 35px;
+          width: calc(50% - 97px);
+        }
+
+        @include media-query(large) {
+          min-height: 35px;
+          width: calc(50% - 135px);
+        }
+
+        &:first-of-type {          
+          @include media-query(medium) {
+            float: left;
+            padding-left: 50px;
+            background: url(../img/bg-nav-flourish-left-2156x70.png) no-repeat;
+            background-size: auto 25px;
+            background-position: left bottom;
+          }
+          @media screen and (min-width: $break-small) and (max-width: 900px) {
+            float: left;
+            padding-left: 35px;
+            background: url(../img/bg-nav-flourish-left-2156x70.png) no-repeat;
+            background-size: auto 20px;
+            background-position: left bottom;
+          }
+          @include media-query(large) {
+            float: left;
+            padding-left: 70px;
+            background: url(../img/bg-nav-flourish-left-2156x70.png) no-repeat;
+            background-size: auto 35px;
+            background-position: left bottom;
+          }
+        }
+        &:last-of-type {          
+          @include media-query(medium) {
+            float: right;
+            text-align: right;
+            padding-right: 50px;
+            background: url(../img/bg-nav-flourish-right-2156x70.png) no-repeat;
+            background-size: auto 25px;
+            background-position: right bottom;
+          }
+          @media screen and (min-width: $break-small) and (max-width: 900px) {
+            float: right;
+            text-align: right;
+            padding-right: 35px;
+            background: url(../img/bg-nav-flourish-right-2156x70.png) no-repeat;
+            background-size: auto 20px;
+            background-position: right bottom;
+          }
+          @include media-query(large) {
+            float: right;
+            text-align: right;
+            padding-right: 70px;
+            background: url(../img/bg-nav-flourish-right-2156x70.png) no-repeat;
+            background-size: auto 35px;
+            background-position: right bottom;
+          }
+        }
+      }
+
+      li {
+        @include media-query(small) {
+          @include flex(1, 1, 100%);  
+        }
+        
+        @include media-query(medium-up) {
+          @include flex(1, 1, auto);
+          font-size: $p;
+        }
+        @media screen and (min-width: $break-small) and (max-width: 965px) {
+          font-size: $small;
+          padding-top: 5px;
+        }
+
+        &.current {
+          a {
+            opacity: .5;
+            cursor: default;
+            &:hover {
+              color: $blue;
+              border-color: $white;
+            }
+          }
+        }
+
+        a {
+          @include media-query(small) {
+            display: block;
+            padding: 7px 14px;
+            
+            border-bottom: 1px solid $black-15;
+            font-size: $h5;
+          }
+        }
+      }
+    }
+
+    // Mobile nav elements
+    .handle {
+      @include media-query(small) {
+        width: 27px;
+        height: 27px;
+        position: absolute;
+        top: 8px;
+        left: -43px;
+
+        background: url(../img/nav-handle-closed-54x54.png) no-repeat;
+        background-size: 100% auto;
+        border: 0;
+
+        &:hover {
+          border: 0;
+        }
+
+        &.open {
+          background: url(../img/nav-handle-open-54x54.png) no-repeat;
+          background-size: 100% auto;
+        }
+      }
+    }
+    .fill {
+      width: 56px;
+      position: fixed;
+      top: 0;
+      bottom: 0;
+      left: -56px;
+
+      @include transition(opacity, 250ms);
+      opacity: 0;
+      background: $white-50;
+
+      &.visible {
+        opacity: 1;
+        left: 0;
+      }
+    }
+  }
+}

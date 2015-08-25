@@ -10,6 +10,10 @@
 //
 //	FONT FAMILIES
 //
+@mixin font-family-proxima-nova-thin {
+	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+	font-weight: 100;
+}
 @mixin font-family-proxima-nova-regular {
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 	font-weight: 400;
@@ -18,18 +22,26 @@
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 	font-weight: 700;
 }
+@mixin font-family-playfair-regular {
+	font-family: 'Playfair Display', 'Times New Roman', Times, Georgia serif;
+	font-weight: 400;
+}
+@mixin font-family-playfair-bold {
+	font-family: 'Playfair Display', 'Times New Roman', Times, Georgia serif;
+	font-weight: 700;
+}
 
 //
 //	FONT SIZES
 //
-$h1: 2.75rem;
-$h2: 1.75rem;
-$h3: 1.575rem;
-$h4: 1.375rem;
-$h5: 1.25rem;
-$h6: 1.125rem;
-$p: 1.125rem;
-$small: 1rem;
+$h1: 48px;
+$h2: 36px;
+$h3: 32px;
+$h4: 26px;
+$h5: 20px;
+$h6: 16px;
+$p: 16px;
+$small: 12px;
 
 $padding-small: 1.45rem;
 $padding-large: 2.8rem;
@@ -38,6 +50,13 @@ $padding-huge: 6.25rem;
 //
 //	MISC. FONT STUFF
 //
+
+@mixin date {
+	display: block;
+  margin: 1em 0;
+  @include font-family-proxima-nova-thin;
+}
+
 @mixin text-shadow {
 	text-shadow: 1px 1px 5px $black-50;
 	filter: dropshadow(color=#000000, offx=1, offy=1);

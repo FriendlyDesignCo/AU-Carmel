@@ -1,0 +1,66 @@
+/*
+==========================================================================
+  SITE FOOTER (scss/partials/global/_site-footer.scss)
+==========================================================================
+*/
+.site-footer {
+  background: $dark-gray;
+  color: $white;
+
+  .container {
+    > div {
+      &:first-of-type {
+        border-bottom: 1px solid $white-15;
+      }
+    }
+  }
+  .row {
+    padding: 30px 0;
+  }
+
+  // Typography
+  a {
+    color: $white;
+    border-bottom: 1px solid $white-25;
+
+    &:hover {
+      color: $white;
+      border-bottom: 1px solid $white;
+    }
+  }
+  p {
+    margin-bottom: 0;
+  }
+
+  // First row
+  .site-footer__logo {
+    display: block;
+    width: 228px;
+    border-bottom: 0;
+
+    &:hover {
+      border-bottom: 0;
+    }
+    
+    img {
+      max-width: 100%;
+      height: auto;
+    }
+  }
+  .site-footer__address {
+    text-align: right;
+    @include media-query(small) {
+      margin-top: 1em;
+      text-align: left;
+    }
+  }
+
+  // Second row
+  .site-footer__copyright {
+    text-align: right;
+    @include media-query(small) {
+      margin-top: 1em;
+      text-align: left;
+    }
+  }
+}
