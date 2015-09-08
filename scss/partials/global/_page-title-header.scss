@@ -4,7 +4,9 @@
 ==========================================================================
 */
 .page-title {
+  position: relative;
   padding: 40px 0;
+  z-index: 1;
 
   background-color: $blue;
   background-image: url(../img/bg-page-title-header-1207x400.jpg);
@@ -12,11 +14,67 @@
   background-size: cover;
   background-position: center center;
 
+  &--has-image {
+    padding: 60px 0;
+    background-image: none;
+
+    @include media-query(small) {
+      padding: 40px 0;
+    }
+  }
+
   h1 {
     margin: 0;
     text-align: center;
     color: $white;
     @include font-family-playfair-regular;
     font-style: italic;
+  }
+
+  &__background {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1;
+
+    background-size: cover;
+    background-position: center center;
+    opacity: 0.3;
+  }
+
+  // Info containers (eg. single events page)
+  &__info-container {
+    padding: 40px 0 0;
+    @include flexbox;
+    @include flex-wrap(wrap);
+
+    background-image: url(../img/bg-hr-center-flower-white-2404x24.png);
+    background-repeat: repeat-x;
+    background-position: center top;
+    background-size: auto 12px;
+    color: $white;
+    @include font-family-proxima-nova-regular;
+
+    @include media-query(small) {
+      margin: 40px 0 0;
+    }
+    @include media-query(medium) {
+      margin: 40px 15% 0;
+    }
+    @include media-query(large) {
+      margin: 40px 25% 0;
+    }
+  }
+
+  &__info {
+    @include flex(1, 1, 50%);
+    text-align: center;
+    
+    @include media-query(small) {
+      @include flex(1, 1, 100%);
+      margin-bottom: 10px;
+    }
   }
 }

@@ -1,0 +1,40 @@
+/*
+==========================================================================
+  FEED (scss/partials/page/_feed.scss)
+==========================================================================
+*/
+
+.feed {
+  
+  @include media-query(small) {
+    margin-top: 40px;
+  }
+
+  &__title {
+    margin-top: 0;
+    @include barTitle;
+  }
+
+  &__list {
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    padding: 15px 0;
+    border-bottom: 1px solid $black-15;
+
+    h4 {
+      @include font-family-playfair-bold;
+      font-style: italic;
+    }
+
+    &:last-of-type {
+      border-bottom: 0;
+    }
+
+    &__description {
+
+    }
+  }
+}

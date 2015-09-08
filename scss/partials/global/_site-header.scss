@@ -7,6 +7,8 @@
   margin-top: 0;
   margin-bottom: 0;
   border-bottom: 0;
+  position: relative;
+  z-index: 2;
   
   @include media-query(small) {
     min-height: 41px;
@@ -20,10 +22,6 @@
   @include media-query(large) {
     min-height: 152px;
   }
-
-  // background: $black-10;
-
-  position: relative;
 
 
   &__logo {
@@ -325,7 +323,6 @@
         &.current {
           a {
             opacity: .5;
-            cursor: default;
             &:hover {
               color: $blue;
               border-color: $white;

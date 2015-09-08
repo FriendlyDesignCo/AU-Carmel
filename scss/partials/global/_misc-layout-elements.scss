@@ -50,3 +50,28 @@ div.hr {
     transform: translateX(-50%) translateY(-20%);
   }
 }
+
+.load-more {
+  @extend div.hr;
+  height: 60px;
+  margin-top: 40px;
+
+  &:before {
+    background-image: url(../img/bg-hr-flourish-left-blue-2266x46.png);
+  }
+  &:after {
+    background-image: url(../img/bg-hr-flourish-right-blue-2266x46.png);
+  }
+
+  a.load-more__button {
+    position: absolute;
+    display: inline-block;
+    left: 50%;
+    top: 50%;
+    -moz-transform: translateX(-50%) translateY(-85%);
+    -webkit-transform: translateX(-50%) translateY(-85%);
+    -o-transform: translateX(-50%) translateY(-85%);
+    -ms-transform: translateX(-50%) translateY(-85%);
+    transform: translateX(-50%) translateY(-85%);
+  }
+}

@@ -26,7 +26,8 @@ h3,
 h4,
 h5,
 h6 {
-
+  @include font-family-playfair-bold;
+  font-style: italic;
 
   strong,
   b {

@@ -23,3 +23,29 @@
     color: $white;
   }
 }
+
+a.btn-secondary {
+  padding: 2px;
+
+  background: $white;
+  border: 1px solid $blue;
+  -webkit-border-radius: 20px 20px 20px 20px;
+  border-radius: 20px 20px 20px 20px;
+  font-size: $h5;
+  @include font-family-playfair-regular;
+  font-style: italic;
+  text-align: center;
+
+  &:hover {
+    background: $blue;
+    color: $white;
+  }
+
+  span {
+    display: block;
+    padding: 10px 30px;
+    border: 1px solid $blue-50;
+    -webkit-border-radius: 17.5px 17.5px 17.5px 17.5px;
+    border-radius: 17.5px 17.5px 17.5px 17.5px;
+  }
+}

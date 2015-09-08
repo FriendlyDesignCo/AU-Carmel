@@ -6,14 +6,21 @@
 
 // Partials 
 @import "partials/typography"; // Universal font styles
+
+// Reusable layout elements
 @import "partials/global/buttons";
+@import "partials/global/callout-list";
+@import "partials/global/feed";
+@import "partials/global/content-area";
+@import "partials/global/misc-layout-elements";
+
+// Site-wide elements
 @import "partials/global/au-bar";
 @import "partials/global/site-header";
 @import "partials/global/page-title-header";
-@import "partials/global/callout-list";
-@import "partials/global/misc-layout-elements";
 @import "partials/global/site-footer";
 
+// Specific page partials
 @import "partials/page/home";
 @import "partials/page/events";
 
