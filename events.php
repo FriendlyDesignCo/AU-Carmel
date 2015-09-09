@@ -31,18 +31,20 @@
     <!-- BEGIN TOP EVENTS REGION -->
     <div class="events-top  container">
       <div class="row">
-        <div class="featured-event  col-xs-12 col-sm-8">
-          <h3>
-            <a href="event-single.php">Mosfilm screens “Some Russian Movie” at E Street Cinema</a>
-          </h3>
-          <span class="featured-event__date">July 3, 2015</span>
+        <article class="featured-event  col-xs-12 col-sm-8">
+          <header>
+            <h3>
+              <a href="event-single.php">Mosfilm screens “Some Russian Movie” at E Street Cinema</a>
+            </h3>
+            <span class="featured-event__date">July 3, 2015</span>
+          </header>
           <img class="featured-event__image" src="img/event-placeholder-733x418.jpg">
           <div class="featured-event__description  col-xs-12 col-md-10">
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In iaculis lorem nec ipsum gravida, et finibus elit sollicitudin. Curabitur vel felis condimentum, placerat diam id, aliquam sapien. Nullam efficitur neque id augue maximus suscipit. Interdum et malesuada fames ac ante ipsum primis in faucibus. Sed sit amet nunc massa. Suspendisse auctor enim massa, aliquet dictum sapien aliquet sed.</p>
             <p>Aenean posuere odio lacus, quis blandit sapien accumsan at. Ut rutrum vulputate tellus. Integer sed orci nec ipsum suscipit sodales in vel purus. Sed ultrices est vitae justo vehicula, sed pellentesque dolor commodo.</p>
           </div>
           <a class="btn btn-primary" href="event-single.php">Learn More &amp; RSVP</a>
-        </div>
+        </article>
 
         <div class="feed  col-xs-12 col-sm-4">
           <h3 class="feed__title">

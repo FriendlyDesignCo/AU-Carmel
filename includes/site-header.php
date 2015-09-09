@@ -35,11 +35,11 @@
           <a class="handle"></a>
           <div class="group">
             <li<?php if ($currentPage === 'events') { echo ' class="current"'; } ?>><a href="events.php">Events</a></li>
-            <li><a href="#">Study Abroad</a></li>
-            <li><a href="#">Associated Courses</a></li>
+            <li<?php if ($currentPage === 'study-abroad') { echo ' class="current"'; } ?>><a href="study-abroad.php">Study Abroad</a></li>
+            <li<?php if ($currentPage === 'associated-courses') { echo ' class="current"'; } ?>><a href="associated-courses.php">Associated Courses</a></li>
           </div>
           <div class="group">
-            <li><a href="#">Faculty &amp; Staff</a></li>
+            <li<?php if ($currentPage === 'faculty-and-staff') { echo ' class="current"'; } ?>><a href="faculty-and-staff.php">Faculty &amp; Staff</a></li>
             <li><a href="#">Advisory Committee</a></li>
             <li><a href="#">News</a></li>
           </div>

@@ -26,6 +26,7 @@
 
   &__logo {
     display: block;
+    z-index: 3;
 
     @mixin logo-center {
       position: absolute;

@@ -136,7 +136,7 @@
           </div>
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
-            <span class="callout-list__title">Friends &amp; Venues</span>
+            <span class="callout-list__title">Event Partners</span>
             <div class="callout-list__logo  col-xs-6">
               <a href="#">
                 <img src="http://placehold.it/100x100" alt="name" />
