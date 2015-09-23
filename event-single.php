@@ -13,7 +13,7 @@
     
     <?php include('includes/head.php'); ?>
 
-    <title>Home – The Carmel Institute of Russian Culture &amp; History</title>
+    <title>Mosfilm Screens “Some Russian Movie” at E Street Cinema – The Carmel Institute of Russian Culture &amp; History</title>
 
   </head>
   <body class="<?php echo $currentPage; ?>">

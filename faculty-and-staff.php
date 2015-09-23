@@ -13,7 +13,7 @@
     
     <?php include('includes/head.php'); ?>
 
-    <title>Associated Courses – The Carmel Institute of Russian Culture &amp; History</title>
+    <title>Faculty &amp; Staff – The Carmel Institute of Russian Culture &amp; History</title>
 
   </head>
   <body class="<?php echo $currentPage; ?>">

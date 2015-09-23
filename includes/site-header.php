@@ -23,7 +23,7 @@
         <span class="border-1"></span>
         <span class="border-2"></span>
         <span class="gradient"></span>
-        <a href="/" title="Carmel Institute Home">
+        <a href="http://dev.friendlydesign.co/au-carmel/" title="Carmel Institute Home">
           <img class="hidden-xs" src="img/logo-carmel-full-gray-462x228.png" alt="The Carmel Institute of Russian Culture &amp; History" />
           <img class="visible-xs" src="img/logo-carmel-compressed-gray-376x42.png" alt="The Carmel Institute of Russian Culture &amp; History" />
         </a>
@@ -40,8 +40,8 @@
           </div>
           <div class="group">
             <li<?php if ($currentPage === 'faculty-and-staff') { echo ' class="current"'; } ?>><a href="faculty-and-staff.php">Faculty &amp; Staff</a></li>
-            <li><a href="#">Advisory Committee</a></li>
-            <li><a href="#">News</a></li>
+            <li<?php if ($currentPage === 'advisory-committee') { echo ' class="current"'; } ?>><a href="advisory-committee.php">Advisory Committee</a></li>
+            <li<?php if ($currentPage === 'news') { echo ' class="current"'; } ?>><a href="news.php">News</a></li>
           </div>
         </ul>
       </nav>

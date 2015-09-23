@@ -344,17 +344,56 @@ a.btn-secondary {
     -moz-flex: 1 1 75%;
     -ms-flex: 1 1 75%;
     flex: 1 1 75%;
-    padding-left: 20px; }
+    padding-left: 20px;
+    margin-bottom: 30px; }
     .content-area__item--person .content-area__description header {
       margin-bottom: 15px; }
     .content-area__item--person .content-area__description h4 {
       margin: 0; }
     .content-area__item--person .content-area__description .content-area__position {
+      display: block;
+      margin-top: 5px;
       font-family: 'Playfair Display', 'Times New Roman', Times, Georgia serif;
       font-weight: 400;
-      font-style: italic; }
+      font-style: italic;
+      line-height: 1.2; }
   .content-area__item--person address {
     font-style: italic; }
+.content-area__item--news {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  padding-bottom: 40px; }
+  .content-area__item--news + .content-area__item--news {
+    padding-top: 40px;
+    border-top: 1px solid rgba(0, 0, 0, 0.15); }
+  .content-area__item--news .content-area__thumbnail {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 25%;
+    -moz-box-flex: 1;
+    -moz-flex: 1 1 25%;
+    -ms-flex: 1 1 25%;
+    flex: 1 1 25%;
+    max-width: 25%;
+    padding-right: 20px; }
+    .content-area__item--news .content-area__thumbnail img {
+      width: 100%;
+      height: auto; }
+  .content-area__item--news .content-area__description {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 1 75%;
+    -moz-box-flex: 1;
+    -moz-flex: 1 1 75%;
+    -ms-flex: 1 1 75%;
+    flex: 1 1 75%;
+    max-width: 75%;
+    padding-left: 20px; }
 .content-area__title {
   position: relative;
   text-align: center;
@@ -376,6 +415,11 @@ a.btn-secondary {
     background: #fff; }
   .content-area__title span {
     background: #F3F3F3; }
+.content-area__date {
+  display: block;
+  margin: 1em 0;
+  font-family: "proxima-nova", Helvetica, Arial, sans-serif;
+  font-weight: 100; }
 .content-area__logo {
   display: block;
   width: 50%;
