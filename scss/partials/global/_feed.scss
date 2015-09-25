@@ -13,6 +13,12 @@
   &__title {
     margin-top: 0;
     @include barTitle;
+
+    .content-area__column--narrow & { // narrow content columns have a different background color
+      span {
+        background-color: #F3F3F3;
+      }
+    }
   }
 
   &__list {
@@ -36,6 +42,10 @@
       margin-top: 0;
       @include font-family-playfair-bold;
       font-style: italic;
+    }
+
+    &__date {
+      @include date;
     }
 
     &__description {

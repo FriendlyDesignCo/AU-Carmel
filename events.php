@@ -117,11 +117,13 @@
         <div class="row">
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -130,11 +132,13 @@
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -143,11 +147,13 @@
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -156,11 +162,13 @@
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -169,11 +177,13 @@
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -182,11 +192,13 @@
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -195,11 +207,13 @@
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -208,11 +222,13 @@
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -221,11 +237,13 @@
 
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="past-event-single.php">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
-                <a href="#">Title of item lorem ipsum dolor sit amet</a>
+                <a href="past-event-single.php">Title of item lorem ipsum dolor sit amet</a>
               </h3>
               <span class="callout-list__date">July 3, 2015</span>
               <p><a href="#" class="btn btn-primary" role="button">Call to action</a></p>
@@ -245,10 +263,5 @@
 
     <?php include('includes/site-footer.php'); ?>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>

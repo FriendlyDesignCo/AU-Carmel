@@ -46,7 +46,7 @@
                 <h4>Anton Fedyashin</h4>
                 <span class="content-area__position">Director of the Carmel Institute of Russian Culture and History and Assistant Pr</span>
               </header>
-              <p>Anton Fedyashin received his BA from St. John’s College in Annapolis, MD, where he studied the Great Books. He completed an MA at Harvard University in Russian, East European, and Central Asian Studies and went on to defend his doctoral dissertation at Georgetown University <a href="#">... read more.</a></p>
+              <p>Anton Fedyashin received his BA from St. John’s College in Annapolis, MD, where he studied the Great Books. He completed an MA at Harvard University in Russian, East European, and Central Asian Studies and went on to defend his doctoral dissertation at Georgetown University <a href="bio-anton-fedyashin.php">... read more.</a></p>
               <address>
                 <a href="mailto:fedyashi@american.edu">fedyashi@american.edu</a><br />
                 202-885-6381<br />
@@ -64,7 +64,7 @@
                 <h4>Eric Lohr</h4>
                 <span class="content-area__position">Professor and Susan Carmel Lehrman Chair of Russian History and Culture</span>
               </header>
-              <p>Eric Lohr published his most recent book, Russian Citizenship: From Empire to Soviet Union, with Harvard University Press in September 2012. He received his MA in Russian Studies and PhD in History from Harvard University. He then taught at Harvard a <a href="#">... read more.</a></p>
+              <p>Eric Lohr published his most recent book, Russian Citizenship: From Empire to Soviet Union, with Harvard University Press in September 2012. He received his MA in Russian Studies and PhD in History from Harvard University. He then taught at Harvard a <a href="bio-anton-fedyashin.php">... read more.</a></p>
               <address>
                 <a href="mailto:elohr@american.edu">elohr@american.edu</a><br />
                 202-885-2464<br />
@@ -132,7 +132,7 @@
                 <h4>James Goldgeier</h4>
                 <span class="content-area__position">Dean</span>
               </header>
-              <p>James Goldgeier is Dean of the School of International Service at American University. Previously, he was a professor of political science and international affairs at George Washington University. He also taught at Cornell University, and has held a <a href="#">... read more.</a></p>
+              <p>James Goldgeier is Dean of the School of International Service at American University. Previously, he was a professor of political science and international affairs at George Washington University. He also taught at Cornell University, and has held a <a href="bio-anton-fedyashin.php">... read more.</a></p>
               <address>
                 202-885-1603 <br />
                 SIS-School of Intl Service
@@ -149,7 +149,7 @@
                 <h4>Yuliya Gorenman</h4>
                 <span class="content-area__position">Musician in Residence</span>
               </header>
-              <p>A piano instructor in the applied music program, award-winning Russian-born American pianist Yuliya Gorenman has been called a "pianist without fear." Now firmly established in her performing career, she first achieved international acclaim in 1995 a <a href="#">... read more.</a></p>
+              <p>A piano instructor in the applied music program, award-winning Russian-born American pianist Yuliya Gorenman has been called a "pianist without fear." Now firmly established in her performing career, she first achieved international acclaim in 1995 a <a href="bio-anton-fedyashin.php">... read more.</a></p>
               <address>
                 <a href="mailto:ygoren@american.edu">ygoren@american.edu</a>
                 202-885-3435<br />
@@ -167,7 +167,7 @@
                 <h4>Alina Israeli</h4>
                 <span class="content-area__position">Associate Professor</span>
               </header>
-              <p>Professor Israeli received her PhD in Slavic Linguistics from Yale University. Prior to coming to the United States she received a BA equivalent in Russian Language and Literature from Leningrad State University. A specialist in both Russian linguist <a href="#">... read more.</a></p>
+              <p>Professor Israeli received her PhD in Slavic Linguistics from Yale University. Prior to coming to the United States she received a BA equivalent in Russian Language and Literature from Leningrad State University. A specialist in both Russian linguist <a href="bio-anton-fedyashin.php">... read more.</a></p>
               <address>
                 <a href="mailto:aisrael@american.edu">aisrael@american.edu</a>
                 202-885-2387<br />
@@ -185,7 +185,7 @@
                 <h4>Linda Lucia Lubrano</h4>
                 <span class="content-area__position">Professor</span>
               </header>
-              <p>Linda Lucia Lubrano retired from the SIS faculty after 45 years of teaching from 1968 to 2013. Honored for her distinguished teaching career, she offered a wide range of courses that bridged the humanities with the natural and social sciences. Her <a href="#">... read more.</a></p>
+              <p>Linda Lucia Lubrano retired from the SIS faculty after 45 years of teaching from 1968 to 2013. Honored for her distinguished teaching career, she offered a wide range of courses that bridged the humanities with the natural and social sciences. Her <a href="bio-anton-fedyashin.php">... read more.</a></p>
               <address>
                 <a href="mailto:lubrano@american.edu">lubrano@american.edu</a>
                 202-885-1654<br />
@@ -264,10 +264,5 @@
 
     <?php include('includes/site-footer.php'); ?>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>

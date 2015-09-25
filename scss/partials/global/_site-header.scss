@@ -323,7 +323,7 @@
 
         &.current {
           a {
-            opacity: .5;
+            color: $black;
             &:hover {
               color: $blue;
               border-color: $white;

@@ -34,4 +34,9 @@ h6 {
   b {
     
   }
+
+  &.bordered {
+    padding-bottom: 15px;
+    border-bottom: 1px solid $black-15;
+  }
 }

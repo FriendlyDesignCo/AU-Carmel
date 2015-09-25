@@ -40,7 +40,7 @@
             <div class="content-area__description">
               <header>
                 <h3>
-                  <a href="#">Inaugural Event for Carmel Institute of Russian Culture and History</a>
+                  <a href="news-single.php">Inaugural Event for Carmel Institute of Russian Culture and History</a>
                 </h3>
                 <span class="content-area__date">July 3, 2015</span>
               </header>
@@ -56,7 +56,23 @@
             <div class="content-area__description">
               <header>
                 <h3>
-                  <a href="#">Inaugural Event for Carmel Institute of Russian Culture and History</a>
+                  <a href="news-single.php">Inaugural Event for Carmel Institute of Russian Culture and History</a>
+                </h3>
+                <span class="content-area__date">July 3, 2015</span>
+              </header>
+              <p>Saturday was a big day for cultural diplomacy at AU, as hundreds of people gathered at the Katzen Arts Center for the official kick-off event of the Carmel Institute of Russian Culture and History (CIRCH).</p>
+              <p>he day began with a symposium, The Strength of Cooperation: Lessons from the Grand Alliance, 1941–1945. Panelists included Frank Costigliola, professor of history at the University of Connecticut; Iskander Magadeev from the Moscow State Institute of International Relations <a href="#">...read more.</a></p>
+            </div>
+          </article>
+
+          <article class="content-area__item content-area__item--news">
+            <div class="content-area__thumbnail">
+              <img src="img/news-images/2015-04-11-thumbnail-141x94.jpg" alt="Inaugural Event for Carmel Institute of Russian Culture and History" width="141" height="94" />
+            </div>
+            <div class="content-area__description">
+              <header>
+                <h3>
+                  <a href="news-single.php">Inaugural Event for Carmel Institute of Russian Culture and History</a>
                 </h3>
                 <span class="content-area__date">July 3, 2015</span>
               </header>
@@ -113,10 +129,5 @@
 
     <?php include('includes/site-footer.php'); ?>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>

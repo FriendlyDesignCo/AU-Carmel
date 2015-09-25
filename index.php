@@ -44,7 +44,9 @@
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <span class="callout-list__title">Upcoming Event</span>
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="#">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
@@ -59,7 +61,9 @@
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <span class="callout-list__title">Study Abroad</span>
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="#">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
@@ -74,7 +78,9 @@
           <div class="callout-list__column  col-xs-12 col-sm-4">
             <span class="callout-list__title">About the Institute</span>
             <div class="callout-list__image">
-              <img src="http://placehold.it/350x233" alt="alt-text" />
+              <a href="#">
+                <img src="http://placehold.it/350x233" alt="alt-text" />
+              </a>
             </div>
             <div class="callout-list__caption">
               <h3>
@@ -175,10 +181,5 @@
 
     <?php include('includes/site-footer.php'); ?>
 
-
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
   </body>
 </html>
