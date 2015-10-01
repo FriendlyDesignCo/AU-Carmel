@@ -34,7 +34,9 @@
         <div class="content-area__column  col-xs-12 col-sm-8">
          
           <div class="content-area__item">
-            <h3 class="text-center">Fall 2014</h3>
+            <header>
+              <h3 class="text-center">Fall 2014</h3>
+            </header>
 
             <div class="hr"></div>
 

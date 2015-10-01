@@ -278,8 +278,8 @@ a.btn-secondary {
   -ms-flex-wrap: wrap;
   flex-wrap: wrap; }
 .content-area__column {
-  padding-top: 40px;
-  padding-bottom: 40px; }
+  padding-top: 60px;
+  padding-bottom: 60px; }
   .content-area__column--wide {
     -webkit-box-flex: 1;
     -webkit-flex: 1 1 66%;
@@ -529,29 +529,38 @@ div.hr, .callout-list__title--bar, .load-more {
   z-index: 999999; }
   .slideshow-controls a {
     display: block;
-    width: 30px;
-    height: 30px;
+    width: 40px;
+    height: 40px;
     padding-top: 1px;
     border: 1px solid rgba(58, 70, 153, 0.75);
-    background: #fff;
     color: #3a4699;
     cursor: pointer;
     font-size: 20px;
     font-weight: bold;
-    text-align: center; }
+    text-align: center;
+    -webkit-border-radius: 20px 20px 20px 20px;
+    border-radius: 20px 20px 20px 20px; }
     .slideshow-controls a:hover {
-      background: #3a4699;
+      background-color: #fff;
       color: #fff;
       border-color: #3a4699;
       text-decoration: none; }
   .slideshow-controls__prev {
     position: absolute;
     top: 0;
-    left: 10px; }
+    left: 10px;
+    background: rgba(255, 255, 255, 0.5) url(../img/arrow-left-50x82.png);
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: center center; }
   .slideshow-controls__next {
     position: absolute;
     top: 0;
-    right: 10px; }
+    right: 10px;
+    background: rgba(255, 255, 255, 0.5) url(../img/arrow-right-50x82.png);
+    background-repeat: no-repeat;
+    background-size: auto 50%;
+    background-position: center center; }
 
 /*
 ==========================================================================

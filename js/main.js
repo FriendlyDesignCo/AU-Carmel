@@ -18,7 +18,7 @@ var carmel = (function($) {
     var init = function() { // Called on page load, calls all other functions that should occur on page load
 
       // On init function calls
-
+      carmel.repositionSlideShowNav();
       // User input calls
       $('.site-header__nav .handle, .site-header__nav .fill').click(function() {
         carmel.expandNavigation();
@@ -31,7 +31,7 @@ var carmel = (function($) {
     };
 
     var resize = function() { // Called when the browser window is resized
-      // Functions
+      carmel.repositionSlideShowNav();
     };
 
     // var onInterval = setInterval(function(){ // items to run on an interval.
@@ -59,16 +59,26 @@ var carmel = (function($) {
     }
   };
 
+  var repositionSlideShowNav = function() {
+    if ($('.slideshow-controls').length > 0 && $('.cycle-slideshow').length > 0) {
+      var heightOffset = $('.cycle-slideshow .cycle-slideshow__slide img').height() * .45;
+      $('.slideshow-controls').css({
+        'top': heightOffset + 'px'
+      });
+    }
+  };
+
   // public
   return {
     utility: utility,
-    expandNavigation: expandNavigation
+    expandNavigation: expandNavigation,
+    repositionSlideShowNav: repositionSlideShowNav
   };
 })(jQuery); // var carmel = (function() {
 
 $(document).ready(function() {
    carmel.utility.init();
 
-   // $(window).resize(function(){ carmel.utility.resize(); });
+   $(window).resize(function(){ carmel.utility.resize(); });
    // $(window).scroll(function(){ carmel.utility.onScroll(); });
 });

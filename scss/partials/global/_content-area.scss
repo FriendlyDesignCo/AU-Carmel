@@ -10,8 +10,8 @@
   }
 
   &__column {
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-top: 60px;
+    padding-bottom: 60px;
 
     &--wide {
       @include flex(1, 1, 66%);

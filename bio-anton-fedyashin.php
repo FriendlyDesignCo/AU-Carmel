@@ -100,65 +100,7 @@
             </ul>
             <br /><br />
           </div>
-
-          <h3 class="bordered">AU News and Achievements</h3>
-
-          <article class="content-area__item content-area__item--news">
-            <div class="content-area__thumbnail">
-              <img src="img/news-images/2015-04-11-thumbnail-141x94.jpg" alt="Inaugural Event for Carmel Institute of Russian Culture and History" width="141" height="94" />
-            </div>
-            <div class="content-area__description">
-              <header>
-                <h3>
-                  <a href="news-single.php">Tolstoy the New Face on Campus</a>
-                </h3>
-              </header>
-              <p>Unveiling of donated bust reflects growing importance of Russian studies at AU <a href="#">...read more.</a></p>
-            </div>
-          </article>
-
-          <article class="content-area__item content-area__item--news">
-            <div class="content-area__thumbnail">
-              <img src="img/news-images/2015-04-11-thumbnail-141x94.jpg" alt="Inaugural Event for Carmel Institute of Russian Culture and History" width="141" height="94" />
-            </div>
-            <div class="content-area__description">
-              <header>
-                <h3>
-                  <a href="news-single.php">Tolstoy the New Face on Campus</a>
-                </h3>
-              </header>
-              <p>Unveiling of donated bust reflects growing importance of Russian studies at AU <a href="#">...read more.</a></p>
-            </div>
-          </article>
-
-          <article class="content-area__item content-area__item--news">
-            <div class="content-area__thumbnail">
-              <img src="img/news-images/2015-04-11-thumbnail-141x94.jpg" alt="Inaugural Event for Carmel Institute of Russian Culture and History" width="141" height="94" />
-            </div>
-            <div class="content-area__description">
-              <header>
-                <h3>
-                  <a href="news-single.php">Tolstoy the New Face on Campus</a>
-                </h3>
-              </header>
-              <p>Unveiling of donated bust reflects growing importance of Russian studies at AU <a href="#">...read more.</a></p>
-            </div>
-          </article>
-
-          <article class="content-area__item content-area__item--news">
-            <div class="content-area__thumbnail">
-              <img src="img/news-images/2015-04-11-thumbnail-141x94.jpg" alt="Inaugural Event for Carmel Institute of Russian Culture and History" width="141" height="94" />
-            </div>
-            <div class="content-area__description">
-              <header>
-                <h3>
-                  <a href="news-single.php">Tolstoy the New Face on Campus</a>
-                </h3>
-              </header>
-              <p>Unveiling of donated bust reflects growing importance of Russian studies at AU <a href="#">...read more.</a></p>
-            </div>
-          </article>
-
+          
         </div> <!-- .content-area__column -->
 
         <div class="feed content-area__column  col-xs-12 col-sm-4">
@@ -194,6 +136,40 @@
             <li class="feed__item">
               <p>
                 To request an interview for a news story, call AU Communications at 202-885-5950 or <a href="http://www.american.edu/media/request-an-interview.cfm">submit a request.</a>
+              </p>
+            </li>
+          </ul>
+
+          <h3 class="feed__title">
+            <span>News &amp; Achievements</span>
+          </h3>
+          <ul class="feed__list">
+            <li class="feed__item">
+              <h4><a href="#">Tolstoy the New Face on Campus</a></h4>
+              <span class="feed__item__date">July 1, 2015</span>
+              <p>
+                Unveiling of donated bust reflects growing importance of Russian studies at AU <a href="#">...read more.</a>
+              </p>
+            </li>
+            <li class="feed__item">
+              <h4><a href="#">Tolstoy the New Face on Campus</a></h4>
+              <span class="feed__item__date">July 1, 2015</span>
+              <p>
+                Unveiling of donated bust reflects growing importance of Russian studies at AU <a href="#">...read more.</a>
+              </p>
+            </li>
+            <li class="feed__item">
+              <h4><a href="#">Tolstoy the New Face on Campus</a></h4>
+              <span class="feed__item__date">July 1, 2015</span>
+              <p>
+                Unveiling of donated bust reflects growing importance of Russian studies at AU <a href="#">...read more.</a>
+              </p>
+            </li>
+            <li class="feed__item">
+              <h4><a href="#">Tolstoy the New Face on Campus</a></h4>
+              <span class="feed__item__date">July 1, 2015</span>
+              <p>
+                Unveiling of donated bust reflects growing importance of Russian studies at AU <a href="#">...read more.</a>
               </p>
             </li>
           </ul>

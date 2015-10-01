@@ -39,8 +39,8 @@
         <div class="content-area__column content-area__column--wide">
           
           <div class="slideshow-controls">
-            <a class="slideshow-controls__prev">&lt;</a>
-            <a class="slideshow-controls__next">&gt;</a>
+            <a class="slideshow-controls__prev"></a>
+            <a class="slideshow-controls__next"></a>
           </div>
 
           <div class="cycle-slideshow" data-cycle-slides=".cycle-slideshow__slide" data-cycle-timeout="0" data-cycle-prev=".slideshow-controls__prev" data-cycle-next=".slideshow-controls__next">

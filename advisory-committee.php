@@ -31,9 +31,13 @@
     <!-- BEGIN ASSOCIATED COURSES CONTENT AREA -->
     <div class="content-area  container">
       <div class="row">
-        <div class="content-area__column  col-xs-12 col-sm-8">
-
-          <h3 class="text-center">Members of the IRC Advisory Committee</h3>
+        <div class="content-area__column  col-xs-12 col-sm-8 col-sm-offset-2">
+          
+          <div class="content-area__item">
+            <header>
+              <h3 class="text-center">Members of the IRC Advisory Committee</h3>
+            </header>
+          </div>
 
           <div class="hr"></div>
          
@@ -157,22 +161,8 @@
             </div>            
           </div> <!-- .content-area__item person -->
           
-
-
-
-
         </div> <!-- .content-area__column -->
 
-        <div class="feed content-area__column  col-xs-12 col-sm-4">
-          <h3 class="feed__title">
-            <span>Related Links</span>
-          </h3>
-          <ul class="feed__list">
-            <li class="feed__item">
-              <a href="http://www.american.edu/provost/registrar/schedule/index.cfm">AU Registrar Classes</a>
-            </li>
-          </ul>
-        </div> <!-- .feed.content-area__column -->
       </div>
     </div>
     <!-- END ASSOCIATED COURSES CONTENT AREA -->
