@@ -71,10 +71,20 @@
   &__info {
     @include flex(1, 1, 50%);
     text-align: center;
+
+    .no-flexbox & {
+      display: block;
+      width: 100%;
+    }
     
     @include media-query(small) {
       @include flex(1, 1, 100%);
       margin-bottom: 10px;
+
+      .no-flexbox & {
+        width: 100%;
+        float: none;
+      }
     }
   }
 }

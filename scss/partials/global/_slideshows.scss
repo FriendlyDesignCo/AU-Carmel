@@ -3,8 +3,14 @@
   SLIDESHOWS (scss/partials/global/_slideshows.scss)
 ==========================================================================
 */
-.cycle-slideshow {
+.slideshow {
   max-width: 100%;
+
+  &:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
 
   img {
     width: 100%;
@@ -27,7 +33,7 @@
   top: 10px;
   margin-bottom: -50px;
   height: 50px;
-  z-index: 999999;
+  z-index: 200;
 
   a {
     display: block;

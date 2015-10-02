@@ -2,6 +2,7 @@
 // http://thesassway.com/beginner/how-to-structure-a-sass-project
 
 // Modules, Variables & Normalize.css
+@import "vendor/bootstrap";
 @import "partials/base"; // Base HTML + loading variables, mixins, colors
 
 // Partials 

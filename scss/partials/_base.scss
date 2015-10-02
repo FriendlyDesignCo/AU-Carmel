@@ -10,6 +10,9 @@
 	@include border-box;
 	@include font-smoothing;
 }
+body {
+  overflow-x: hidden;
+}
 a,
 a:link,
 a:visited {
@@ -18,4 +21,8 @@ a:visited {
   &:hover {
     @include link-hover;
   }
+}
+
+img {
+  -ms-interpolation-mode: bicubic;  /* IE (non-standard property) */
 }

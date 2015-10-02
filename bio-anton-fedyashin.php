@@ -64,7 +64,7 @@
           <div class="hr"></div>
 
           <div class="content-area__item">
-            <h4>Partnerships &amp; Affiliations</h4>
+            <h4 class="text-center">Partnerships &amp; Affiliations</h4>
             <p><a href="http://www.historians.org/">American Historical Association</a>, Member</p>
             <p><a href="http://www.fas.harvard.edu/~aaass/">American Association for the Advancement of Slavic Studies</a>, Member</p>
             <p><a href="http://www.sras.org/southern_conference_on_slavic_studies">Southern Conference on Slavic Studies</a>, Member</p>
@@ -73,7 +73,7 @@
           <div class="hr"></div>
 
           <div class="content-area__item">
-            <h4>Scholarly, Creative &amp; Professional Activities</h4>
+            <h4 class="text-center">Scholarly, Creative &amp; Professional Activities</h4>
             <h5>Research Interests</h5>
             <p>Professor Fedyashin is a specialist in Russian and European history. His area of concentration, however, is imperial Russian history, although his courses, conference papers, and publications cover the entire modern period from the imperial to the post-Soviet era. His particular area of interest are his students whom he encourages to visit him during office hours and for whom he writes recommendations with pleasure and in a timely manner.</p>
             <h5>Honors, Awards, and Fellowships</h5>

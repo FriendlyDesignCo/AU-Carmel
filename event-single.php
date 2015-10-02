@@ -37,10 +37,14 @@
       <!-- BEGIN TWO COLUMN CONTENT AREA -->
       <div class="content-area content-area--two-col  container">
         <div class="content-area__column content-area__column--wide">
-          <!-- Basic HTML content should be placed here. Classes should not be used unless absolutely necessary -->
-          <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem enim, aliquam elementum egestas in, ultricies a orci.</h3>
-          <p>Vestibulum elementum lacus at sem dignissim fermentum. Cras justo sem, condimentum nec felis vel, egestas vehicula lorem. Morbi hendrerit mauris purus, vel molestie sem tincidunt elementum. Praesent consequat massa eros, vel vestibulum eros mollis sed. Mauris massa massa, ultrices a cursus malesuada, facilisis et nulla. Nulla lacinia tristique eros sit amet lobortis. Ut vel rutrum urna. Integer scelerisque dapibus nisl eget tristique. Aliquam rutrum posuere massa, ac posuere ex tincidunt in. Etiam luctus tempor risus elementum pulvinar. Ut a consectetur risus.</p>
-          <p>Curabitur vulputate, nibh ultricies malesuada elementum, lorem leo blandit quam, et sodales tellus mauris pretium justo. Cras congue interdum magna, quis porta dui egestas ac. Sed eu enim nec ex porta euismod quis vitae nunc. Vestibulum sed pulvinar dui, at tincidunt justo. Suspendisse mi mauris, rutrum et nunc consequat, porta pellentesque ante. Etiam vel massa et nulla congue fringilla. In sit amet odio consequat, cursus sem sed, mollis urna.</p>
+          <div class="content-area__item">
+            <!-- Basic HTML content should be placed here. Classes should not be used unless absolutely necessary -->
+            <header>
+              <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque sem enim, aliquam elementum egestas in, ultricies a orci.</h3>
+            </header>
+            <p>Vestibulum elementum lacus at sem dignissim fermentum. Cras justo sem, condimentum nec felis vel, egestas vehicula lorem. Morbi hendrerit mauris purus, vel molestie sem tincidunt elementum. Praesent consequat massa eros, vel vestibulum eros mollis sed. Mauris massa massa, ultrices a cursus malesuada, facilisis et nulla. Nulla lacinia tristique eros sit amet lobortis. Ut vel rutrum urna. Integer scelerisque dapibus nisl eget tristique. Aliquam rutrum posuere massa, ac posuere ex tincidunt in. Etiam luctus tempor risus elementum pulvinar. Ut a consectetur risus.</p>
+            <p>Curabitur vulputate, nibh ultricies malesuada elementum, lorem leo blandit quam, et sodales tellus mauris pretium justo. Cras congue interdum magna, quis porta dui egestas ac. Sed eu enim nec ex porta euismod quis vitae nunc. Vestibulum sed pulvinar dui, at tincidunt justo. Suspendisse mi mauris, rutrum et nunc consequat, porta pellentesque ante. Etiam vel massa et nulla congue fringilla. In sit amet odio consequat, cursus sem sed, mollis urna.</p>
+          </div>
         </div> <!-- .content-area__column wide -->
         <aside class="content-area__column content-area__column--narrow">
           <h3 class="content-area__title">
@@ -76,6 +80,7 @@
               <img src="http://placehold.it/100x100" alt="name" />
             </a>
           </div>
+          <div class="clearfix"></div>
         </aside> <!-- .content-area__column narrow -->
       </div>
       <!-- END TWO COLUMN CONTENT AREA -->

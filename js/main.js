@@ -1,3 +1,5 @@
+/*jshint devel: true */
+
 /*
 =============================================================================
   FUNCTION DECLARATIONS
@@ -5,6 +7,7 @@
 */
 
 var carmel = (function($) {
+  "use strict";
 
   /*
     Utility
@@ -18,7 +21,19 @@ var carmel = (function($) {
     var init = function() { // Called on page load, calls all other functions that should occur on page load
 
       // On init function calls
-      carmel.repositionSlideShowNav();
+      $('.slideshow').cycle({
+          // autoHeight: '543:362',
+          speed: 600,
+          manualSpeed: 100,
+          slides: '.slideshow__slide',
+          timeout: 0,
+          prev: '.slideshow-controls__prev',
+          next: '.slideshow-controls__next'
+      });
+      $('.slideshow').on('cycle-update-view', function() {
+        carmel.repositionSlideShowNav();
+      });
+
       // User input calls
       $('.site-header__nav .handle, .site-header__nav .fill').click(function() {
         carmel.expandNavigation();
@@ -60,8 +75,8 @@ var carmel = (function($) {
   };
 
   var repositionSlideShowNav = function() {
-    if ($('.slideshow-controls').length > 0 && $('.cycle-slideshow').length > 0) {
-      var heightOffset = $('.cycle-slideshow .cycle-slideshow__slide img').height() * .45;
+    if ($('.slideshow-controls').length > 0 && $('.slideshow').length > 0) {
+      var heightOffset = $('.slideshow .slideshow__slide img').height() * 0.45;
       $('.slideshow-controls').css({
         'top': heightOffset + 'px'
       });

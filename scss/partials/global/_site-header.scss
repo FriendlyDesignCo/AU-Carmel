@@ -8,7 +8,7 @@
   margin-bottom: 0;
   border-bottom: 0;
   position: relative;
-  z-index: 2;
+  z-index: 900;
   
   @include media-query(small) {
     min-height: 41px;
@@ -263,6 +263,10 @@
             background: url(../img/bg-nav-flourish-left-2156x70.png) no-repeat;
             background-size: auto 25px;
             background-position: left bottom;
+
+            .no-flexbox & {
+              text-align: center;
+            }
           }
           @media screen and (min-width: $break-small) and (max-width: 900px) {
             float: left;
@@ -270,6 +274,10 @@
             background: url(../img/bg-nav-flourish-left-2156x70.png) no-repeat;
             background-size: auto 20px;
             background-position: left bottom;
+
+            .no-flexbox & {
+              text-align: center;
+            }
           }
           @include media-query(large) {
             float: left;
@@ -277,6 +285,10 @@
             background: url(../img/bg-nav-flourish-left-2156x70.png) no-repeat;
             background-size: auto 35px;
             background-position: left bottom;
+
+            .no-flexbox & {
+              text-align: center;
+            }
           }
         }
         &:last-of-type {          
@@ -287,6 +299,10 @@
             background: url(../img/bg-nav-flourish-right-2156x70.png) no-repeat;
             background-size: auto 25px;
             background-position: right bottom;
+
+            .no-flexbox & {
+              text-align: center;
+            }
           }
           @media screen and (min-width: $break-small) and (max-width: 900px) {
             float: right;
@@ -295,6 +311,10 @@
             background: url(../img/bg-nav-flourish-right-2156x70.png) no-repeat;
             background-size: auto 20px;
             background-position: right bottom;
+
+            .no-flexbox & {
+              text-align: center;
+            }
           }
           @include media-query(large) {
             float: right;
@@ -303,18 +323,32 @@
             background: url(../img/bg-nav-flourish-right-2156x70.png) no-repeat;
             background-size: auto 35px;
             background-position: right bottom;
+
+            .no-flexbox & {
+              text-align: center;
+            }
           }
         }
       }
 
       li {
         @include media-query(small) {
-          @include flex(1, 1, 100%);  
+          @include flex(1, 1, 100%); 
+
+          .no-flexbox & {
+            width: 100%;
+            float: none;
+          } 
         }
         
         @include media-query(medium-up) {
           @include flex(1, 1, auto);
           font-size: $p;
+
+          .no-flexbox & {
+            display: inline-block;
+            padding: 0 10px;
+          }
         }
         @media screen and (min-width: $break-small) and (max-width: 965px) {
           font-size: $small;
@@ -349,7 +383,7 @@
         width: 27px;
         height: 27px;
         position: absolute;
-        top: 8px;
+        top: 7px;
         left: -43px;
 
         background: url(../img/nav-handle-closed-54x54.png) no-repeat;

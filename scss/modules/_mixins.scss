@@ -13,14 +13,17 @@
 @mixin font-family-proxima-nova-thin {
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 	font-weight: 100;
+  // .wf-loading & { visibility: hidden; }
 }
 @mixin font-family-proxima-nova-regular {
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 	font-weight: 400;
+  // .wf-loading & { visibility: hidden; }
 }
 @mixin font-family-proxima-nova-bold {
 	font-family: "proxima-nova", Helvetica, Arial, sans-serif;
 	font-weight: 700;
+  // .wf-loading & { visibility: hidden; }
 }
 @mixin font-family-playfair-regular {
 	font-family: 'Playfair Display', 'Times New Roman', Times, Georgia serif;
@@ -75,6 +78,10 @@ $padding-huge: 6.25rem;
     z-index: -1;
 
     background: $black-15;
+
+    @include media-query(small) {
+      top: 47%;
+    }
   }
 
   span {
@@ -101,7 +108,8 @@ $padding-huge: 6.25rem;
 	color: $blue;
 	text-decoration: none;
 	border-bottom: 1px solid transparent;
-	@include transition(all,250ms);
+	@include transition(color,250ms);
+  @include transition(border,250ms);
 }
 @mixin link-hover {
 	color: $black;

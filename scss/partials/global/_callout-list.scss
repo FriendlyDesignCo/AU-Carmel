@@ -6,6 +6,10 @@
 .callout-list {
   margin: 60px 0;
 
+  @include media-query(small) {
+    margin: 30px 0;
+  }
+
   &__column {
     margin-bottom: 4em; 
 
@@ -29,6 +33,10 @@
       border-bottom: 1px solid $black-15;
       padding-bottom: 1em;
       margin-bottom: 1em;
+
+      .no-flexbox & {
+        width: 100%;
+      }
     }
     @include media-query(medium-up) {
       text-align: center;
@@ -84,6 +92,11 @@
   &__caption {
     @include media-query(small) {
       @include flex(1, 1, 75%);
+
+      .no-flexbox & {
+        width: 75%;
+        float: left;
+      }
     }
   }
 
@@ -102,6 +115,11 @@
         padding-right: 20px;
         @include flex(1, 1, 25%);
         max-width: 25%;
+
+        .no-flexbox & {
+          width: 25%;
+          float: left;
+        }
       }
       img {
         width: 100%;
