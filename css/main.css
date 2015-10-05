@@ -7239,58 +7239,44 @@ div.hr, .callout-list__title--bar, .load-more {
   SLIDESHOWS (scss/partials/global/_slideshows.scss)
 ==========================================================================
 */
-.slideshow {
-  max-width: 100%; }
-  .slideshow:after {
-    content: "";
-    display: table;
-    clear: both; }
-  .slideshow img {
-    width: 100%; }
-  .slideshow > div {
-    width: 100%; }
-    .slideshow > div:nth-of-type(n+2) {
-      display: none; }
-  .slideshow__caption {
-    margin-top: 3em; }
-
-.slideshow-controls {
-  position: relative;
-  top: 10px;
-  margin-bottom: -50px;
-  height: 50px;
-  z-index: 200; }
-  .slideshow-controls a {
-    display: block;
+.slideshow .item img {
+  width: 100%; }
+.slideshow .carousel-caption {
+  padding: 10px 10px 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.35); }
+.slideshow .carousel-control {
+  background: None;
+  color: #fff;
+  border: 0;
+  -webkit-transition: opacity 250ms ease-in-out;
+  -moz-transition: opacity 250ms ease-in-out;
+  -ms-transition: opacity 250ms ease-in-out;
+  -o-transition: opacity 250ms ease-in-out;
+  transition: opacity 250ms ease-in-out; }
+  .slideshow .carousel-control .arrow {
     width: 40px;
     height: 40px;
-    padding-top: 1px;
-    border: 1px solid rgba(58, 70, 153, 0.75);
-    color: #3a4699;
-    cursor: pointer;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
+    position: absolute;
+    top: 45%;
+    -moz-transform: translateY(-50%);
+    -webkit-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
     -webkit-border-radius: 20px 20px 20px 20px;
     border-radius: 20px 20px 20px 20px; }
-    .slideshow-controls a:hover {
-      background-color: #fff;
-      color: #fff;
-      border-color: #3a4699;
-      text-decoration: none; }
-  .slideshow-controls__prev {
-    position: absolute;
-    top: 0;
-    left: 10px;
-    background: rgba(255, 255, 255, 0.5) url(../img/arrow-left-50x82.png);
+  .slideshow .carousel-control.left .arrow {
+    left: 32%;
+    background: #fff url(../img/arrow-left-50x82.png);
     background-repeat: no-repeat;
     background-size: auto 50%;
     background-position: center center; }
-  .slideshow-controls__next {
-    position: absolute;
-    top: 0;
-    right: 10px;
-    background: rgba(255, 255, 255, 0.5) url(../img/arrow-right-50x82.png);
+  .slideshow .carousel-control.right .arrow {
+    right: 32%;
+    background: #fff url(../img/arrow-right-50x82.png);
     background-repeat: no-repeat;
     background-size: auto 50%;
     background-position: center center; }
@@ -7872,6 +7858,7 @@ div.hr, .callout-list__title--bar, .load-more {
 ==========================================================================
 */
 body.home .jumbotron {
+  padding: 0;
   background: rgba(0, 0, 0, 0.8); }
   body.home .jumbotron .container {
     display: -webkit-box;
@@ -7952,6 +7939,14 @@ body.home .jumbotron {
   body.home .jumbotron .btn {
     margin-top: 2em;
     display: inline-block; }
+body.home .carousel .item {
+  min-height: 40vh;
+  padding: 20px 0;
+  background-size: cover;
+  background-position: center center; }
+  @media only screen and (max-width: 768px) {
+    body.home .carousel .item {
+      padding-bottom: 50px; } }
 body.home .hr {
   margin: 4em 0 0 !important; }
   @media only screen and (max-width: 768px) {

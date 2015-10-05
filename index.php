@@ -22,14 +22,55 @@
 
     <!-- BEGIN HOMEPAGE JUMBOTRON -->
     <div class="jumbotron">
-      <div class="container">
-        <h1>Russian Culture in our nation’s capital</h1>
-        <p>
-          The Carmel Institute of Russian Culture and History at American University promotes greater understanding of Russian culture's versatility and richness among all Consortium students in the Washington area.
-          <br />
-          <a class="btn btn-primary">Learn More About Us</a>
-        </p>
-      </div>
+
+      <div id="homepageCarousel" class="carousel slide" data-ride="carousel" data-interval="10000">
+
+        <!-- Carousel indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#homepageCarousel" data-slide-to="0" class="active"></li>
+          <li data-target="#homepageCarousel" data-slide-to="1"></li>
+          <li data-target="#homepageCarousel" data-slide-to="2"></li>
+        </ol>   
+
+        <!-- Carousel items -->
+        <div class="carousel-inner" role="listbox">
+
+          <div class="item active" style="background-image: url(img/homepage-placeholder-1300x650.jpg);">
+            <div class="container">
+              <h1>Russian Culture in our nation’s capital</h1>
+              <p>
+                The Carmel Institute of Russian Culture and History at American University promotes greater understanding of Russian culture's versatility and richness among all Consortium students in the Washington area.
+                <br />
+                <a class="btn btn-primary">Learn More About Us</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="item" style="background-image: url(img/homepage-placeholder-1300x650.jpg);">
+            <div class="container">
+              <h1>Second example slide lorem ipsum dolor</h1>
+              <p>
+                The Carmel Institute of Russian Culture and History at American University promotes greater understanding of Russian culture's versatility and richness among all Consortium students in the Washington area.
+                <br />
+                <a class="btn btn-primary">Learn More About Us</a>
+              </p>
+            </div>
+          </div>
+
+          <div class="item" style="background-image: url(img/homepage-placeholder-1300x650.jpg);">
+            <div class="container">
+              <h1>Third example slide lorem ipsum dolor</h1>
+              <p>
+                The Carmel Institute of Russian Culture and History at American University promotes greater understanding of Russian culture's versatility and richness among all Consortium students in the Washington area.
+                <br />
+                <a class="btn btn-primary">Learn More About Us</a>
+              </p>
+            </div>
+          </div>
+
+        </div> <!-- .carousel-inner -->
+      </div> <!-- .carousel -->
+
     </div>
     <!-- END HOMEPAGE JUMBOTRON -->
 

@@ -38,79 +38,116 @@
       <div class="content-area content-area--two-col  container">
         <div class="content-area__column content-area__column--wide">
           
-          <div class="slideshow-controls">
-            <a class="slideshow-controls__prev"></a>
-            <a class="slideshow-controls__next"></a>
-          </div>
+          
+          <!-- Carousel
+          ================================================== -->
+          <div id="symposiumCarousel" class="slideshow  carousel slide" data-interval="false">
+            <div class="carousel-inner" role="listbox">
+              
+              <div class="item active">
+                <img src="img/events/2015-symposium/20150411CISymp01.jpg" alt="Ambassador Sergey I. Kislyak and Susan B. Eisenhower" />
+                <div class="carousel-caption">
+                  <p>Ambassador Sergey I. Kislyak and Susan B. Eisenhower</p>
+                </div>
+              </div>
 
-          <div class="slideshow">
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp02.jpg" alt="Ambassador Sergey I. Kislyak" />
+                <div class="carousel-caption">
+                  <p>Ambassador Sergey I. Kislyak</p>
+                </div>
+              </div>
 
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp01.jpg" alt="Ambassador Sergey I. Kislyak and Susan B. Eisenhower" />
-              <p class="slideshow__caption">Ambassador Sergey I. Kislyak and Susan B. Eisenhower</p>
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp03.jpg" alt="Former Ambassador John R. Beyrle" />
+                <div class="carousel-caption">
+                  <p>Former Ambassador John R. Beyrle</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp04.jpg" alt="Dr. Anton Fedyashin, Dr. Iskander Magadeev, Dr. Frank Costigliola, Susan B. Eisenhower, Ambassador John R. Beyrle" />
+                <div class="carousel-caption">
+                  <p>Dr. Anton Fedyashin, Dr. Iskander Magadeev, Dr. Frank Costigliola, Susan B. Eisenhower, Ambassador John R. Beyrle</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp05.jpg" alt="Dr. Iskander Magadeev, Susan B. Eisenhower, Dr. Anton Fedyashin, Susan Carmel Lehrman, Ambassador John R. Beyrle, Dr. Frank Costigliola" />
+                <div class="carousel-caption">
+                  <p>Dr. Iskander Magadeev, Susan B. Eisenhower, Dr. Anton Fedyashin, Susan Carmel Lehrman, Ambassador John R. Beyrle, Dr. Frank Costigliola</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp06.jpg" alt="Susan B. Eisenhower, Dr. Frank Costigliola, Susan Carmel Lehrman, former Ambassador John R. Beyrle, Dr. Iskander Magadeev, (background) Susan Carmel Lehrman Scholarship Students" />
+                <div class="carousel-caption">
+                  <p>Susan B. Eisenhower, Dr. Frank Costigliola, Susan Carmel Lehrman, former Ambassador John R. Beyrle, Dr. Iskander Magadeev, (background) Susan Carmel Lehrman Scholarship Students</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp07.jpg" alt="Susan Carmel Lehrman and Dr. Iskander Magadeev" />
+                <div class="carousel-caption">
+                  <p>Susan Carmel Lehrman and Dr. Iskander Magadeev</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp08.jpg" alt="Susan B. Eisenhower" />
+                <div class="carousel-caption">
+                  <p>Susan B. Eisenhower</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp10.jpg" alt="Susan Carmel Lehrman and Dr. Iskander Magadeev" />
+                <div class="carousel-caption">
+                  <p>Susan Carmel Lehrman and Dr. Iskander Magadeev</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp11.jpg" alt="Guests mingle at the reception." />
+                <div class="carousel-caption">
+                  <p>Guests mingle at the reception.</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp12.jpg" alt="Panelists and audience at "The Strength of Cooperation" symposium." />
+                <div class="carousel-caption">
+                  <p>Panelists and audience at "The Strength of Cooperation" symposium.</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp14.jpg" alt="Guests at the reception." />
+                <div class="carousel-caption">
+                  <p>Guests at the reception.</p>
+                </div>
+              </div>
+
+              <div class="item">
+                <img src="img/events/2015-symposium/20150411CISymp15.jpg" alt="Dr. Iskander Magadeev and guest" />
+                <div class="carousel-caption">
+                  <p>Dr. Iskander Magadeev and guest</p>
+                </div>
+              </div>
+
             </div>
+            
+            <a class="left carousel-control" href="#symposiumCarousel" role="button" data-slide="prev">
+              <span class="arrow" aria-hidden="true"></span>
+              <span class="sr-only">Previous</span>
+            </a>
+            
+            <a class="right carousel-control" href="#symposiumCarousel" role="button" data-slide="next">
+              <span class="arrow" aria-hidden="true"></span>
+              <span class="sr-only">Next</span>
+            </a>
+          </div><!-- /.carousel -->
 
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp02.jpg" alt="Ambassador Sergey I. Kislyak" />
-              <p class="slideshow__caption">Ambassador Sergey I. Kislyak</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp03.jpg" alt="Former Ambassador John R. Beyrle" />
-              <p class="slideshow__caption">Former Ambassador John R. Beyrle</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp04.jpg" alt="Dr. Anton Fedyashin, Dr. Iskander Magadeev, Dr. Frank Costigliola, Susan B. Eisenhower, Ambassador John R. Beyrle" />
-              <p class="slideshow__caption">Dr. Anton Fedyashin, Dr. Iskander Magadeev, Dr. Frank Costigliola, Susan B. Eisenhower, Ambassador John R. Beyrle</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp05.jpg" alt="Dr. Iskander Magadeev, Susan B. Eisenhower, Dr. Anton Fedyashin, Susan Carmel Lehrman, Ambassador John R. Beyrle, Dr. Frank Costigliola" />
-              <p class="slideshow__caption">Dr. Iskander Magadeev, Susan B. Eisenhower, Dr. Anton Fedyashin, Susan Carmel Lehrman, Ambassador John R. Beyrle, Dr. Frank Costigliola</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp06.jpg" alt="Susan B. Eisenhower, Dr. Frank Costigliola, Susan Carmel Lehrman, former Ambassador John R. Beyrle, Dr. Iskander Magadeev, (background) Susan Carmel Lehrman Scholarship Students" />
-              <p class="slideshow__caption">Susan B. Eisenhower, Dr. Frank Costigliola, Susan Carmel Lehrman, former Ambassador John R. Beyrle, Dr. Iskander Magadeev, (background) Susan Carmel Lehrman Scholarship Students</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp07.jpg" alt="Susan Carmel Lehrman and Dr. Iskander Magadeev" />
-              <p class="slideshow__caption">Susan Carmel Lehrman and Dr. Iskander Magadeev</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp08.jpg" alt="Susan B. Eisenhower" />
-              <p class="slideshow__caption">Susan B. Eisenhower</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp10.jpg" alt="Susan Carmel Lehrman and Dr. Iskander Magadeev" />
-              <p class="slideshow__caption">Susan Carmel Lehrman and Dr. Iskander Magadeev</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp11.jpg" alt="Guests mingle at the reception." />
-              <p class="slideshow__caption">Guests mingle at the reception.</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp12.jpg" alt="Panelists and audience at "The Strength of Cooperation" symposium." />
-              <p class="slideshow__caption">Panelists and audience at "The Strength of Cooperation" symposium.</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp14.jpg" alt="Guests at the reception." />
-              <p class="slideshow__caption">Guests at the reception.</p>
-            </div>
-
-            <div class="slideshow__slide">
-              <img src="img/events/2015-symposium/20150411CISymp15.jpg" alt="Dr. Iskander Magadeev and guest" />
-              <p class="slideshow__caption">Dr. Iskander Magadeev and guest</p>
-            </div>
-
-          </div> <!-- .cycle-slideshow -->
 
           <div class="clearfix"></div>
         </div> <!-- .content-area__column wide -->
