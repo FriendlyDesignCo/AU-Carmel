@@ -39,6 +39,7 @@
     background: $white;
 
     input {
+      padding-top: 2px;
       border: 0;
       background: $white;
       color: $black;
@@ -46,6 +47,7 @@
 
     .glyphicon {
       color: $black-25;
+      // top: 3px;
     }
   }
 }

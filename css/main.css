@@ -7313,6 +7313,7 @@ div.hr, .callout-list__title--bar, .load-more {
     transform: translateY(-52%);
     background: #fff; }
     .au-bar__search input {
+      padding-top: 2px;
       border: 0;
       background: #fff;
       color: #000; }
